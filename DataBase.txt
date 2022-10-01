@@ -1,1 +1,1 @@
-{"right":{"left":{"right":{"patient":{"name":"16","id":46},"height":0},"patient":{"name":"1","id":1},"height":1},"patient":{"name":"Juando","id":1414},"height":2},"left":{"patient":{"name":"rr","id":142},"height":0},"patient":{"name":"4","id":4444},"height":3}
+{"right":{"left":{"right":{"patient":{"name":"16","id":46},"height":0},"patient":{"name":"1","id":1},"height":1},"patient":{"name":"Juando","id":1414},"height":2},"left":{"patient":{"name":"PRueba X","id":-85585555},"height":0},"patient":{"name":"4","id":4444},"height":3}
