@@ -12,6 +12,9 @@ class problemaC {
         inputs[1] = sc.nextLine();
         String sum01 = sc.nextLine();
 
+        //somo code bug fixed
+        String fixVal = "a";
+
         String sAll = inputs[0].concat(inputs[1]);
 
         if(sum01.length() != sAll.length())
@@ -24,9 +27,9 @@ class problemaC {
             bubbleSort(chars01);
 
             if (!chars01.equals(charsAll)){
-                System.out.print("NO");
+                System.out.print("NO-Fixed");
             } else{
-                System.out.print("YES");
+                System.out.print("YES-Fixed");
             }
         }
     }
