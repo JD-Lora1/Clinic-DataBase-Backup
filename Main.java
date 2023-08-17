@@ -15,12 +15,16 @@ public class Main {
     private Control control;
     private String databasePath = "Database.txt";
     private Gson gson;
+    //New code here
+    private String sa = "new_String";
 
     public static void main(String[] args) {
         Main main = new Main();
         String select = "";
         main.initDataBase();
         do{
+            // new call
+            printSt();
             select = main.menu();
             main.select(select);
 
@@ -163,5 +167,10 @@ public class Main {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    //Print method
+    public void printSt(String st){
+        System.out.println(st);
     }
 }
