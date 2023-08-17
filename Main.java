@@ -24,7 +24,7 @@ public class Main {
         main.initDataBase();
         do{
             // new call
-            printSt();
+            main.printSt(main.sa);
             select = main.menu();
             main.select(select);
 
