@@ -42,6 +42,8 @@ public class Main {
 
     public void select(String select){
         String command;
+        // HOTFIX
+        command = "";
         switch (select){
             case "1":
                 command = sc.nextLine();
@@ -63,6 +65,7 @@ public class Main {
                 System.out.println("Typo\nInvalid option");
                 break;
         }
+        System.out.println("Hotfix done");
     }
 
     public void redirect(String command){
