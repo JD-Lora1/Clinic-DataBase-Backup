@@ -176,4 +176,19 @@ public class Main {
     public void printSt(String st){
         System.out.println(st);
     }
+    public void createArray(){
+        int[] indices = {10, 20, 100, 500, 1000};
+
+        double[] valores = new double[indices.length];
+
+        for (int i = 0; i < indices.length; i++) {
+            valores[i] = calcularSecuencia(indices[i]);
+            }
+        
+        System.out.println("Valores de la secuencia:");
+        for (int i = 0; i < valores.length; i++) {
+            System.out.println("a" + indices[i] + ": " + valores[i]);
+        }
+    }
 }
+
